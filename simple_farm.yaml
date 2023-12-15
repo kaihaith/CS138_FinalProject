@@ -1,0 +1,54 @@
+Farm:
+  Field-0:
+    localization:
+      latitude#°: 50.38
+      longitude#°: 3.03
+      altitude#m: 10
+    shape:
+      length#nb: 1
+      width#nb: 1
+      scale#m: 1.0
+    entities:
+      - Weather: lille
+      - Soil: loam
+      - Plant: bean
+  Field-1:
+    localization:
+      latitude#°: 50.38
+      longitude#°: 3.03
+      altitude#m: 10
+    shape:
+      length#nb: 1
+      width#nb: 1
+      scale#m: 1.0
+    entities:
+      - Weather: lille
+      - Soil: loam
+      - Plant: bean
+  Field-2:
+    localization:
+      latitude#°: 50.38
+      longitude#°: 3.03
+      altitude#m: 10
+    shape:
+      length#nb: 1
+      width#nb: 1
+      scale#m: 1.0
+    entities:
+      - Weather: lille
+      - Soil: loam
+      - Plant: bean
+  Farmer-0:
+    type: basic
+    parameters:
+      max_daily_interventions: 3
+      max_daily_observations: 6
+actions: simple_actions.yaml
+score: simple_score.yaml
+initialization: simple_init.yaml
+interaction_mode: POMDP
+
+
+
+
+

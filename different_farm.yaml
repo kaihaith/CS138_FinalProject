@@ -1,0 +1,49 @@
+Farm:
+  Field-0:
+    localization:
+      latitude#°: 43
+      longitude#°: 4
+      altitude#m: 150
+    shape:
+      length#nb: 1
+      width#nb: 1
+      scale#m: 1.0
+    entities:
+      - Weather: montpellier
+      - Soil: clay
+      - Plant: corn
+  Field-1:
+    localization:
+      latitude#°: 43
+      longitude#°: 4
+      altitude#m: 150
+    shape:
+      length#nb: 1
+      width#nb: 1
+      scale#m: 1.0
+    entities:
+      - Weather: montpellier
+      - Soil: clay
+      - Plant: corn
+  Field-2:
+    localization:
+      latitude#°: 43
+      longitude#°: 4
+      altitude#m: 150
+    shape:
+      length#nb: 1
+      width#nb: 1
+      scale#m: 1.0
+    entities:
+      - Weather: montpellier
+      - Soil: clay
+      - Plant: corn
+  Farmer-0:
+    type: basic
+    parameters:
+      max_daily_interventions: 3
+      max_daily_observations: 6
+actions: different_actions.yaml
+score: different_score.yaml
+initialization: different_init.yaml
+interaction_mode: POMDP

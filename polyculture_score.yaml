@@ -1,0 +1,188 @@
+observation-cost:
+  Field-0:
+    Weather-0:
+      day#int365: 0
+      air_temperature: 0
+      humidity_index#%: 0
+      wind: 0
+      sun_exposure#int5: 0
+      rain_amount: 0
+      rain_intensity: 0
+      consecutive_frost#day: 0
+      consecutive_dry#day: 0
+      air_temperature.forecast: 0
+    Soil-0:
+      available_N#g: 0
+      available_P#g: 0
+      available_K#g: 0
+      available_C#g: 0
+      available_Water#L: 0
+      wet_surface#m2.day-0: 0
+      microlife_health_index#%: 0
+      total_cumulated_added_water#L: 0
+    Plant-0:
+      stage: 0
+      global_stage: 0
+      population#nb: 0
+      size#cm: 0
+      flowers_per_plant#nb: 0
+      pollinator_visits#nb: 0
+      flowers_pollinated_per_plant#nb: 0
+      fruits_per_plant#nb: 0
+      fruit_weight#g: 0
+      harvest_weight#kg: 0
+      age_seed#day: 0
+      consecutive_nogrow#day: 0
+      age_bloom#day: 0
+      consecutive_noweight#day: 0
+      age_ripe#day: 0
+      cumulated_nutrients_N#g: 0
+      cumulated_nutrients_P#g: 0
+      cumulated_nutrients_K#g: 0
+      cumulated_nutrients_C#g: 0
+      cumulated_stress_nutrients_N#g: 0
+      cumulated_stress_nutrients_P#g: 0
+      cumulated_stress_nutrients_K#g: 0
+      cumulated_stress_nutrients_C#g: 0
+      cumulated_water#L: 0
+      cumulated_stress_water#L: 0
+      grow_size_threshold#cm: 0
+      fruit_weight_threshold#g: 0
+  Field-1:
+    Weather-0:
+      day#int365: 0
+      air_temperature: 0
+      humidity_index#%: 0
+      wind: 0
+      sun_exposure#int5: 0
+      rain_amount: 0
+      rain_intensity: 0
+      consecutive_frost#day: 0
+      consecutive_dry#day: 0
+      air_temperature.forecast: 0
+    Soil-0:
+      available_N#g: 0
+      available_P#g: 0
+      available_K#g: 0
+      available_C#g: 0
+      available_Water#L: 0
+      wet_surface#m2.day-0: 0
+      microlife_health_index#%: 0
+      total_cumulated_added_water#L: 0
+    Plant-0:
+      stage: 0
+      global_stage: 0
+      population#nb: 0
+      size#cm: 0
+      flowers_per_plant#nb: 0
+      pollinator_visits#nb: 0
+      flowers_pollinated_per_plant#nb: 0
+      fruits_per_plant#nb: 0
+      fruit_weight#g: 0
+      harvest_weight#kg: 0
+      age_seed#day: 0
+      consecutive_nogrow#day: 0
+      age_bloom#day: 0
+      consecutive_noweight#day: 0
+      age_ripe#day: 0
+      cumulated_nutrients_N#g: 0
+      cumulated_nutrients_P#g: 0
+      cumulated_nutrients_K#g: 0
+      cumulated_nutrients_C#g: 0
+      cumulated_stress_nutrients_N#g: 0
+      cumulated_stress_nutrients_P#g: 0
+      cumulated_stress_nutrients_K#g: 0
+      cumulated_stress_nutrients_C#g: 0
+      cumulated_water#L: 0
+      cumulated_stress_water#L: 0
+      grow_size_threshold#cm: 0
+      fruit_weight_threshold#g: 0
+  Field-2:
+    Weather-0:
+      day#int365: 0
+      air_temperature: 0
+      humidity_index#%: 0
+      wind: 0
+      sun_exposure#int5: 0
+      rain_amount: 0
+      rain_intensity: 0
+      consecutive_frost#day: 0
+      consecutive_dry#day: 0
+      air_temperature.forecast: 0
+    Soil-0:
+      available_N#g: 0
+      available_P#g: 0
+      available_K#g: 0
+      available_C#g: 0
+      available_Water#L: 0
+      wet_surface#m2.day-0: 0
+      microlife_health_index#%: 0
+      total_cumulated_added_water#L: 0
+    Plant-0:
+      stage: 0
+      global_stage: 0
+      population#nb: 0
+      size#cm: 0
+      flowers_per_plant#nb: 0
+      pollinator_visits#nb: 0
+      flowers_pollinated_per_plant#nb: 0
+      fruits_per_plant#nb: 0
+      fruit_weight#g: 0
+      harvest_weight#kg: 0
+      age_seed#day: 0
+      consecutive_nogrow#day: 0
+      age_bloom#day: 0
+      consecutive_noweight#day: 0
+      age_ripe#day: 0
+      cumulated_nutrients_N#g: 0
+      cumulated_nutrients_P#g: 0
+      cumulated_nutrients_K#g: 0
+      cumulated_nutrients_C#g: 0
+      cumulated_stress_nutrients_N#g: 0
+      cumulated_stress_nutrients_P#g: 0
+      cumulated_stress_nutrients_K#g: 0
+      cumulated_stress_nutrients_C#g: 0
+      cumulated_water#L: 0
+      cumulated_stress_water#L: 0
+      grow_size_threshold#cm: 0
+      fruit_weight_threshold#g: 0
+intervention-cost:
+  Field-0:
+    Soil-0:
+      water_discrete: 2
+      water_continuous: 0
+    Plant-0:
+      sow: 2
+      harvest: 0
+      micro_harvest: 0
+  Field-1:
+    Soil-0:
+      water_discrete: 2
+      water_continuous: 0
+    Plant-0:
+      sow: 2
+      harvest: 0
+      micro_harvest: 0
+  Field-2:
+    Soil-0:
+      water_discrete: 2
+      water_continuous: 0
+    Plant-0:
+      sow: 2
+      harvest: 0
+      micro_harvest: 0
+reward-mix:
+     weight_biodiversitycounts: 0.
+     weight_resourceadded: 0.
+     weight_soilmicrolife: 0.
+     weight_harvest: 0.
+     weight_stagecount: 0.
+     weight_stagetransition: 1.
+final-reward-mix:
+     weight_biodiversitycounts: 0.
+     weight_resourceadded: 1.
+     weight_soilmicrolife: 0.
+     weight_harvest: 3.
+     weight_stagecount: 0.
+     weight_stagetransition: 0.
+
