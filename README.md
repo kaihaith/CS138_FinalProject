@@ -8,12 +8,17 @@ This study investigates the performance of Deep Q-Network (DQN) and Proximal Pol
 Running Experiments:
 Reccomended to Create a new environment due to dependencies:
 conda create --name CS138envHaith python=3.8                 
-Clone Repository
+
+Clone Repository:
 git clone https://github.com/kaihaith/CS138_FinalProject.git\
-Install Dependencies and Run experiments by running
+
+Install Dependencies and Run experiments by running:
 run_agents.ipynb
+
 Videos for each model are created and saved locally, each model is saved locally
 
 Project Notes:
 ~60 hrs work
 running code in entirety takes ~ 4 hours
+
+Special Thanks to the creators of FarmGym 
